@@ -10,5 +10,20 @@ h1{
   text-align: center;
 }
 h2{
-  text-align: center; 
+  text-align: center;
+}
+footer{
+    align-content: center;
+    position: absolute;
+    bottom: .5%;
+
+}
+footer{
+    padding: 5%;
+}
+img.banner{
+  margin-left: 18%;
+}
+body{
+background-color: #d3d3d3;
 }

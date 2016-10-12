@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
 });
 /* Get work page */
 router.get('/work', function(req, res, next){
-res.render('work',{title: 'My past Projects'});
+res.render('work',{title: 'My Projects'});
 });
 /* Get skills page */
 router.get('/skills', function(req,res,next){

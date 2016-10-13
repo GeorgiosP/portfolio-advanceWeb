@@ -1,7 +1,9 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #C1CC14;
 }
+
 
 a {
   color: #00B7FF;
@@ -13,25 +15,65 @@ h2{
   text-align: center;
 }
 footer{
+    text-align: center;
     align-content: center;
     position: absolute;
     bottom: .5%;
+    padding-left: 35.5%;
+
 
 }
-footer{
-    padding: 5%;
-}
+
 img.banner{
   margin-left: 18%;
 }
-body{
-background-color: #d3d3d3;
-}
+
 p{
  text-align: center;
 }
-h3{
+i.fa.fa-github{
+  font-size: 2em;
+  padding-top: 13px;
+  margin-left: 77%;
 
-margin: 0;
-
+}
+i.fa.fa-linkedin-square{
+  font-size: 2em;
+}
+.form-control{
+    margin-left: auto;
+    margin-right: auto;
+}
+div.panel-body{
+  padding-left: 30%;
+  padding-right: 30%;
+  box-shadow: 10px 10px 5px #888888;
+}
+textarea{
+   resize: none;
+}
+h3.workRow1{
+  margin: 0;
+  padding:0;
+  text-align: center;
+}
+div.row{
+  margin-left: 19%;
+}
+p.aboutMe{
+  font-size: 1.3em;
+}
+div.jumbotron {
+    box-shadow: 10px 10px 5px #888888;
+}
+nav{
+  box-shadow: 10px 10px 5px #888888;
+}
+div.progress{
+  box-shadow: 10px 10px 5px #888888;
+}
+img.profile{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }

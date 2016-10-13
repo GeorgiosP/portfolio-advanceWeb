@@ -38,8 +38,8 @@ var mailOptions = {
   from:'"Georgios Psarakis" <geo.psarakis1234@gmail.com>',
   to: req.body.email,
   subject: 'Thanks!',
-  text: 'Thanks for wanting to stay in contact with us',
-  html: '<b>Thanks for wanting to stay in contact with us</b>',
+  text: req.body.message,
+  html: '<b>Thanks for getting in contact with me! I will respond ASAP:</b>',
 };
 transporter.sendMail(mailOptions, function(error, info){
     if(error){

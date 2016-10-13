@@ -4,6 +4,9 @@ body {
   background-color: #C1CC14;
 }
 
+fa {
+  color: #00B7FF;
+}
 
 a {
   color: #00B7FF;
@@ -33,8 +36,8 @@ p{
 }
 i.fa.fa-github{
   font-size: 2em;
-  padding-top: 13px;
-  margin-left: 77%;
+  /* padding-top: 13px;
+  margin-left: 77%; */
 
 }
 i.fa.fa-linkedin-square{
